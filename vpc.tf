@@ -1,5 +1,5 @@
-module "network_vpc" {
-  source  = "app.terraform.io/dbalert/network/google//modules/vpc"
+module "vpc" {
+  source  = "terraform-google-modules/network/google"
   version = "3.2.2"
   # insert required variables here
   network_name = "reena-network"
